@@ -4,8 +4,8 @@ import glob
 
 from dotenv import load_dotenv
 
-from scripts.phase2_sentiment_analysis_classic_ml import SentimentAnalysisPreprocessor
-from scripts.phase1_scrapper import RedditScraper
+from phases.phase2_sentiment_analysis_classic_ml import SentimentAnalysisPreprocessor
+from phases.phase1_scrapper import RedditScraper
 
 
 def concatenate_tsv_files(list_of_files: list, destination_file: str):
